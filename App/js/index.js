@@ -85,12 +85,12 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.FormLayout")
                 .setHost(host,"xui_ui_formlayout2")
                 .setLeft("0.6857142857142857em")
-                .setTop("0.6857142857142857em")
-                .setWidth("40em")
-                .setHeight("6.019047619047619em")
+                .setTop("2.2095238095238097em")
+                .setWidth("40.76190476190476em")
+                .setHeight("4.495238095238095em")
                 .setLayoutData({
                     "rows" : 5,
-                    "cols" : 5,
+                    "cols" : 4,
                     "rowSetting" : {
                         "1" : {
                             "manualHeight" : 50
