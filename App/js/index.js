@@ -52,6 +52,65 @@ xui.Class('App', 'xui.Module',{
                 .setValue("a")
             );
             
+            host.xui_ui_buttonviews2.append(
+                xui.create("xui.UI.Block")
+                .setHost(host,"xui_ui_block9")
+                .setLeft("0.7619047619047619em")
+                .setTop("0em")
+                .setWidth("41.98095238095238em")
+                .setHeight("19.885714285714286em"),
+                "a"
+            );
+            
+            host.xui_ui_block9.append(
+                xui.create("xui.UI.Video")
+                .setHost(host,"xui_ui_video1")
+                .setLeft("0.6857142857142857em")
+                .setTop("0.6857142857142857em")
+                .setWidth("40.076190476190476em")
+                .setHeight("18.133333333333333em")
+            );
+            
+            host.xui_ui_buttonviews2.append(
+                xui.create("xui.UI.Block")
+                .setHost(host,"xui_ui_block10")
+                .setLeft("0.7619047619047619em")
+                .setTop("20.571428571428573em")
+                .setWidth("41.98095238095238em")
+                .setHeight("7.695238095238095em"),
+                "a"
+            );
+            
+            host.xui_ui_block10.append(
+                xui.create("xui.UI.FormLayout")
+                .setHost(host,"xui_ui_formlayout2")
+                .setLeft("0.6857142857142857em")
+                .setTop("0.6857142857142857em")
+                .setWidth("40em")
+                .setHeight("6.019047619047619em")
+                .setLayoutData({
+                    "rows" : 5,
+                    "cols" : 5,
+                    "rowSetting" : {
+                        "1" : {
+                            "manualHeight" : 50
+                        },
+                        "2" : {
+                            "manualHeight" : 50
+                        },
+                        "3" : {
+                            "manualHeight" : 50
+                        },
+                        "4" : {
+                            "manualHeight" : 50
+                        },
+                        "5" : {
+                            "manualHeight" : 50
+                        }
+                    }
+                })
+            );
+            
             append(
                 xui.create("xui.UI.Image")
                 .setHost(host,"xui_ui_image4")
@@ -63,12 +122,12 @@ xui.Class('App', 'xui.Module',{
             );
             
             append(
-                xui.create("xui.UI.Div")
-                .setHost(host,"xui_ui_div20")
+                xui.create("xui.UI.Block")
+                .setHost(host,"xui_ui_block8")
                 .setLeft("0.7619047619047619em")
                 .setTop("20.571428571428573em")
-                .setWidth("9.219047619047618em")
-                .setHeight("7.695238095238095em")
+                .setWidth("8.457142857142857em")
+                .setHeight("8.457142857142857em")
             );
             
             return children;
