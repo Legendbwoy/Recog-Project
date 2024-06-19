@@ -32,6 +32,7 @@ xui.Class('App', 'xui.Module',{
             host.xui_ui_block17.append(
                 xui.create("xui.UI.Button")
                 .setHost(host,"xui_ui_facial")
+                .setName("FACIAL RECOGNITION")
                 .setLeft("0.6857142857142857em")
                 .setTop("0.6857142857142857em")
                 .setWidth("11.276190476190477em")
