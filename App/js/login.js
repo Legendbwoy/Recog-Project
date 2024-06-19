@@ -12,7 +12,8 @@ xui.Class('App.login', 'xui.Module',{
             
             host.ctl_pane10.append(
                 xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input2")
+                .setHost(host,"xui_ui_user")
+                .setName("Username")
                 .setLeft("19.80952380952381em")
                 .setTop("9.904761904761905em")
                 .setWidth("24.076190476190476em")
@@ -23,7 +24,8 @@ xui.Class('App.login', 'xui.Module',{
             
             host.ctl_pane10.append(
                 xui.create("xui.UI.Input")
-                .setHost(host,"xui_ui_input3")
+                .setHost(host,"xui_ui_pass")
+                .setName("Password")
                 .setLeft("19.80952380952381em")
                 .setTop("15.238095238095237em")
                 .setWidth("24.076190476190476em")
@@ -34,7 +36,7 @@ xui.Class('App.login', 'xui.Module',{
             
             host.ctl_pane10.append(
                 xui.create("xui.UI.Label")
-                .setHost(host,"xui_ui_label3")
+                .setHost(host,"xui_ui_log_reg")
                 .setLeft("27.428571428571427em")
                 .setTop("19.047619047619047em")
                 .setWidth("16.152380952380952em")
@@ -44,7 +46,8 @@ xui.Class('App.login', 'xui.Module',{
             
             host.ctl_pane10.append(
                 xui.create("xui.UI.Button")
-                .setHost(host,"xui_ui_button26")
+                .setHost(host,"xui_ui_login")
+                .setName("Log In")
                 .setLeft("29.714285714285715em")
                 .setTop("22.095238095238095em")
                 .setWidth("9.82857142857143em")
@@ -61,6 +64,8 @@ xui.Class('App.login', 'xui.Module',{
                 .setHeight("2.742857142857143em")
                 .setCaption("LOG IN")
                 .setHAlign("center")
+                .setFontSize("22px")
+                .setFontWeight("bold")
             );
             
             return children;
